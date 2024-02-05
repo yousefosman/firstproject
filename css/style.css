@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:oswald;
+    src: url(../fonts/Oswald\ \(1\).zip);
+}
+
+@font-face {
+    font-family:opensans;
+    src: url(../fonts/Open_Sans\ \(1\).zip);
+}
+
+nav{
+    background-color: black;
+    padding: 0px;
+   
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 15px;
+}
+
+nav a:last-child{
+    float: right;
+}
+
+nav a:hover{
+    background-color:#ccc;
+    color:black;
+}
+
+#textbox{
+    text-align: center;
+    padding: 50px 0;
+    font-family:oswald;
+}
+
+#textbox h1{
+    font-size: 3rem;
+}
+
+#textbox p{
+    font-size: 1rem;
+    font-size: large;
+}
+
+#textbox p span{
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+}
+
+header{
+    position: relative;
+}
+
+header #aboveimage{ 
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    color: white;
+    font-family:oswald;
+}
+
+header #aboveimage h2{  
+    font-size: 2.5rem;
+    line-height: 54px;
+    letter-spacing: 3px;
+}
+
+header #aboveimage h1{
+    font-size: 4rem;
+    line-height: 96px;
+    letter-spacing: 5px;
+}
+
+header #aboveimage button{
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+header #aboveimage button:hover{
+    background-color: gray;
+}
+
+main{
+    background-color: #f1f1f1;
+}
+
+main #leftside{
+    float: left;
+    width: 65%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+main #leftside article{
+    background-color: white;
+    padding: 20px 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20PX ;
+}
+
+main #leftside article .articletitle{
+    text-align: center;
+    font-family:oswald;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+main #leftside article .articledesc{
+    text-align: center;
+    font-family:oswald;
+    padding-bottom: 25px;
+}
+
+main #leftside article .articledesc span{
+    color: rgb(96, 88, 88);
+}
+
+main #leftside article .acticlecontenct{
+    font-size:opensans;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+main #leftside article .acticlecontenct p{
+    padding: 20px 0px; 
+}
+
+main #leftside article .articlebutton{
+    padding-bottom: 50px;
+}
+main #leftside article .articlebutton .leftb{
+    float:left ;
+    background-color: white;
+    padding: 8px 13px;
+    border: 1px solid silver;
+    font-weight: bold;
+
+}
+
+main #leftside article .articlebutton .leftb:hover{
+    background-color: silver;
+    border-color: silver;
+}
+
+main #leftside article .articlebutton .rightb{
+    float:right ;
+    background-color: black;
+    color: white;
+    padding: 8px 13px;
+    border: black;
+    font-weight: bold;
+}
+
+main #leftside article .articlebutton .rightb:hover{
+    background-color: silver;
+    border: silver;
+    color: black;
+}
+
+main #leftside article .articlebutton .rightb span{
+    background-color: white;
+    color: black;
+    padding: 0px 7px;
+}
+
+.hr{
+    border-bottom: 1px solid gray;
+}
+
+main #leftside article .articlefooter{
+    padding: 20px 0px;
+}
+
+main #leftside article .articlefooter .lefts{
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+main #leftside article .articlefooter .rights{
+    float: right;
+    width: 80%;
+    padding: 10px;
+    padding-top: 35px;
+}
+
+main #leftside article .articlefooter .rights p{
+    padding-bottom: 20px;
+    font-size: 1.15rem;
+}
+
+main #leftside article .articlefooter .rights p span{
+    color: gray;
+
+}
+
+#secondfooter, #thirdfooter{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main #rightside{
+    float: right;
+    width: 35%;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+
+
+main #rightside .rightintro p{
+    background-color: black;
+    color: white;
+    margin-top: -3.6px;
+    font-size: 15px;
+    font-family: opensans;
+    line-height: 23px;
+    padding: 5px 10px;
+}
+
+main #rightside .rightsections{
+    margin: 20px 0;
+}
+
+main #rightside .rightsections h3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family:oswald;
+
+}
+
+main #rightside .rightsections .sectioncontent{
+    background-color: white;
+    /* padding: 20px; */
+}
+
+main #rightside .rightsections #posts{
+
+}
+
+main #rightside .rightsections #posts ul{
+    padding: 0;
+    list-style: none;
+
+}
+
+main #rightside .rightsections #posts ul li{
+    padding: 10px;
+    border-top: 1px solid silver;
+}
+
+main #rightside .rightsections #posts ul li .lefts{
+    float: left;
+    width: 15%;
+}
+
+main #rightside .rightsections #posts ul li .rights{
+    float: right;
+    width: 85%;
+
+}
+
+main #rightside .rightsections #posts ul li .rights{
+    padding: 7px 12px;
+
+
+}
+
+main #rightside .rightsections #posts ul li:hover{
+    background-color: silver;
+
+}
+
+main #rightside .rightsections #advertise{
+    padding: 20px;
+}
+
+main #rightside .rightsections #advertise section{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+main #rightside .rightsections #tags{
+    padding: 10px 20px 30px;
+}
+
+main #rightside .rightsections #tags span{
+    font-family: opensans;
+    display: inline-block;
+    padding: 0px 10px;
+    background-color:white;
+    margin-top: 15px;
+    transition: 300ms;
+}
+
+main #rightside .rightsections #tags span:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+}
+
+main #rightside .rightsections #inspiration{
+
+}
+main #rightside .rightsections #inspiration div{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+main #rightside .rightsections #follow{
+    padding: 17px;
+}
+
+main #rightside .rightsections #follow a{
+    color: black;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 3px;
+    transition: 250ms;
+}
+
+main #rightside .rightsections #follow a:hover{
+    color: orange;
+}
+
+main #rightside .rightsections #subscribe{
+    padding: 20px;
+}
+
+main #rightside .rightsections #subscribe p{
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+main #rightside .rightsections #subscribe input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main #rightside .rightsections #subscribe button{
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+
+}
+
+main #rightside .rightsections #subscribe button:hover{
+    background-color: silver;
+    color: black;
+}
+
+
+
+
+.clear{
+    content: " ";
+    clear: both;
+}
+
+footer{
+    background-color: #616161;
+    padding: 50px;
+}
+
+footer > a{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+
+footer p{
+    padding-top: 25px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+footer p a{
+    color: white;
+    text-decoration: underline;
+}
+
+#subscribew {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    visibility: hidden;
+}
+
+#subscribew div{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: white;
+}
+
+#subscribew div #close{
+    float: right;
+    font-weight: 100;
+    border: none;
+    background-color: transparent;
+    font-size: 1.7rem;
+    padding: 10px 15px;
+}
+
+#subscribew div #close:hover{
+    background-color: silver;
+    color: black;
+
+}
+
+#subscribew div h1{
+    font-family: oswald;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+#subscribew div p{
+    font-family: opensans;
+    margin-bottom: 20px;
+}
+
+#subscribew div input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#subscribew div #subscribeb{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#subscribew div #subscribeb:hover{
+    background-color: silver;
+    color: black;
+}
+
+@media screen and (max-width:800px){
+
+    header #aboveimage{ 
+        top: 15%;
+    }
+}
